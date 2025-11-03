@@ -1,0 +1,32 @@
+{
+  "name": "codealpha_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtazoyevolimjon/codealpha_tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murtazoyevolimjon/codealpha_tasks/issues"
+  },
+  "homepage": "https://github.com/murtazoyevolimjon/codealpha_tasks#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6"
+  },
+
+"lint-staged": {
+  "*.{js,jsx}": [
+    "prettier --write",
+    "eslint --fix"
+  ]
+}
+}
